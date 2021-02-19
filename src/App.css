@@ -19,3 +19,10 @@ hr {
   height: 100%;
   z-index: 1;
 }
+
+.divimage {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("./assets/img/parallex/background.webp");
+  height: 200px;
+  width: 100%;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import Container from "react-bootstrap/Container";
 
 import MyNavBar from './components/my-nav-bar/my-nav-bar.component.jsx';
@@ -9,6 +10,7 @@ import TitleMessage from './components/title-message/title-message.component.jsx
 import ScrollDown from './components/scroll-down/scroll-down.component.jsx';
 import AboutMe from './pages/about-me/about-me.component.jsx';
 import Skills from './pages/skills/skills.component.jsx';
+import Experience from './pages/experience/experience.component.jsx'
 
 import './App.css';
 
@@ -31,7 +33,14 @@ const App = () => {
     </div>
     <div>
       <Container className="container-box rounded">
-        <Skills />
+        <Slide bottom duration={500}>
+          <Skills />
+        </Slide>
+      </Container>
+    </div>
+    <div>
+      <Container className="container-box rounded">
+        <Experience />
       </Container>
     </div>
   </div>);
