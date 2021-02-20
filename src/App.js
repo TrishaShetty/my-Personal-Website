@@ -10,7 +10,8 @@ import TitleMessage from './components/title-message/title-message.component.jsx
 import ScrollDown from './components/scroll-down/scroll-down.component.jsx';
 import AboutMe from './pages/about-me/about-me.component.jsx';
 import Skills from './pages/skills/skills.component.jsx';
-import Experience from './pages/experience/experience.component.jsx'
+import Experience from './pages/experience/experience.component.jsx';
+import ProjectTimeline from './components/project-timeline/project-timeline.component.jsx';
 
 import './App.css';
 
@@ -41,6 +42,13 @@ const App = () => {
     <div>
       <Container className="container-box rounded">
         <Experience />
+      </Container>
+    </div>
+    <div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <ProjectTimeline />
+        </Slide>
       </Container>
     </div>
   </div>);

@@ -21,6 +21,7 @@ import L_MYSQL from "../../assets/img/skills/mysql.svg";
 import L_JAVA from "../../assets/img/skills/java.svg";
 import L_CPP from "../../assets/img/skills/cplusplus.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_SASS from "../../assets/img/skills/sass-1.svg";
 
 export const skills = {
     frontend: [
@@ -71,6 +72,12 @@ export const skills = {
             imgAltText: "styled-components",
             imgSrc: L_STYLED_COMPONENTS,
             skillName: "styled-components"
+        },
+        {
+            link: "https://sass-lang.com/",
+            imgAltText: "SASS",
+            imgSrc: L_SASS,
+            skillName: "SASS"
         }
     ],
     backend: [

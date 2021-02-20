@@ -20,7 +20,7 @@ const MyNavBar = () => {
             <Nav.Link href="#about">About Me</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#project">Project</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
         </Navbar.Collapse>
