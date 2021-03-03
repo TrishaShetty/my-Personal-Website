@@ -7,10 +7,14 @@
   }
   
   .jumbo-style {
-    background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+    background-image: linear-gradient(-225deg, #355d8b6e 0%, #205983 48%, #1f2020 100%);
   }
   
   .body-title-style {
     font-size: 25px;
     font-weight: 800;
+  }
+
+  h1 {
+    font-family: 'PT Sans', sans-serif;
   }

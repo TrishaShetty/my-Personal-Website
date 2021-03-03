@@ -1,5 +1,6 @@
 import React from "react";
-import { Parallax } from "react-parallax";
+// import { Parallax } from "react-parallax";
+import Jumbotron from "react-bootstrap/Jumbotron";
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import Container from "react-bootstrap/Container";
@@ -12,6 +13,10 @@ import AboutMe from './pages/about-me/about-me.component.jsx';
 import Skills from './pages/skills/skills.component.jsx';
 import Experience from './pages/experience/experience.component.jsx';
 import ProjectTimeline from './components/project-timeline/project-timeline.component.jsx';
+import ContactForm from './pages/contact-form/contact-form.component.jsx';
+import FooterPanel from './components/footer/footer.component.jsx';
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions.js";
 
 import './App.css';
 
@@ -20,24 +25,27 @@ const App = () => {
     <MyNavBar />
     <MyCarousal />
     <TitleMessage />
+    <Particles className="particles particles-box" params={particlesOptions} />
     <ScrollDown />
     <div>
-      <Parallax blur={{ min: -15, max: 15 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="abc" strength={-200}>
+      {/* <Parallax blur={{ min: -15, max: 15 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="abc" strength={-200}> */}
+      <Jumbotron className="contact-jumbotron">
         <div>
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <AboutMe />
-            </Fade>
-          </Container>
+          <Slide bottom duration={500}>
+            <Container className="app-jumbotron rounded">
+                <AboutMe />
+            </Container>
+          </Slide>
         </div>
-      </Parallax>
+      </Jumbotron>
+      {/* </Parallax> */}
     </div>
     <div>
-      <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <Skills />
-        </Slide>
-      </Container>
+      <Fade bottom duration={500}>
+        <Container className="container-box rounded">
+            <Skills />
+        </Container>
+      </Fade>
     </div>
     <div>
       <Container className="container-box rounded">
@@ -45,12 +53,21 @@ const App = () => {
       </Container>
     </div>
     <div>
-      <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <ProjectTimeline />
-        </Slide>
-      </Container>
+      <Slide bottom duration={500}>
+        <Container className="container-box rounded">
+            <ProjectTimeline />
+        </Container>
+      </Slide>
     </div>
+    <div>
+      <Fade bottom duration={500}>
+        <Container className="container-box rounded">
+            <ContactForm />
+        </Container>
+      </Fade>
+    </div>
+    <hr />
+    <FooterPanel />
   </div>);
 };
 

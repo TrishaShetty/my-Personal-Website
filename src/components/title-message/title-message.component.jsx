@@ -19,6 +19,7 @@ const MyTitleMessage = styled.h1`
     letter-spacing: 7px;
     .main {
       font-size: 50px;
+      font-family: 'PT Sans', sans-serif;
     }
     .sub {
       font-size: 27px;
@@ -42,7 +43,7 @@ const TitleMesaage = () => {
                 <div className="sub">
                 <Typewriter
                     options={{
-                    strings: ["Web Developer", "Learner", "Dancer"],
+                    strings: ["Passionate Designer", "Web Developer", "Learner"],
                     autoStart: true,
                     loop: true,
                     delay: 50

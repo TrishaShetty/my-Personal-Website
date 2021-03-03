@@ -11,7 +11,7 @@ const AboutMe = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 className="pt-3 text-center pb-3">ABOUT ME</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -21,18 +21,16 @@ const AboutMe = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hello there! I am <strong>&nbsp;Trisha S Shetty</strong>
-                <br/>A passionate software engineer in Java programming, proficient with Data Structures, Algorithms, Design Patterns.
+                I am <strong>&nbsp;Trisha S Shetty, a designer.</strong>
+                Fuelled by a passion for designing compelling products, I have a deep desire to excel and 
+                continously improve my work.
+                <br/>I started my career as a QA automation engineer in Aruba Networks, HPE.
                 <br/>
-                Having been completed my Engineering in RVCE, 2019 batch, I have joined Aruba Networks as a full time employee.
-                <br/>
-                I have worked as a Cloud Application Engineer as part of Aruba's Cloud Platform named Central.
-                <br/>
-                Currently developing a Java Web Application, having 30,000 requests per minute, which is built using infra
-                components such as Docker, Postgres, Redis, RabbitMQ, Kafka and Hazelcast.
-                <br />Apart from my job, I like designing new stuff, especially websites.
-                <br /> I am a tech enthusiast, who is continuously learning new stuffs to cop up with the 
-                existing technology stack<br/>
+                Always up for a challenge, and on having a keen interest in product development, I started working on a Java based web application, that was part of
+                Aruba's cloud platform, Central. During which I was exposed to working with infrastructures like
+                Docker, Postgres, Redis, RabbitMQ, Kafka and Hazelcast. I worked my way upto landing a software development role.
+                <br />Currently, working as a Software Developer at Goldman Sachs.<br/>
+                <br />You can surely check out my works apart from office on my Github link.<br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">

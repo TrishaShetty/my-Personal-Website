@@ -24,9 +24,7 @@ const Experience = () => {
                                 </div>
                                 <div>
                                     <Card.Text className="text-center style">
-                                        <strong className="body-title-style ">Sotware Engineer-I</strong>
-                                        <br />
-                                        <strong>Technology:</strong> Java, Docker, Postgres, Kafka, Redis, RabbitMQ, Hazelcast
+                                        <strong>Technology:</strong> Java, Python, Docker, Postgres, Kafka, Redis, RabbitMQ, Hazelcast
                                         <br />
                                         <strong>Duration:</strong> July 2019 - March 2021
                                         <br/>
@@ -34,10 +32,10 @@ const Experience = () => {
                                         <ul className="text-left">
                                         <li><strong>Developed &amp; enhanced</strong> a Java based web application, having 30,000 requests per minute.</li>
                                         <li>The application was built using infra such as Docker, Postgres, Redis, RabbitMQ, Kafka and Hazelcast.</li>
-                                        <li><strong>Developed</strong> automation system to test configuration modules of Aruba Central
+                                        <li><strong>Developed</strong> automation system to test Switch and Access Point configuration modules of Aruba Central
                                         using both Rest API and Selenium based Web UI automation.
                                         </li>
-                                        <li><strong>Provided</strong> debug support to automated modules on their failures.
+                                        <li><strong>Provided</strong> debug support for automated modules on their failures.
                                         </li>
                                         </ul>
                                     </Card.Text>
