@@ -15,8 +15,8 @@ import Experience from './pages/experience/experience.component.jsx';
 import ProjectTimeline from './components/project-timeline/project-timeline.component.jsx';
 import ContactForm from './pages/contact-form/contact-form.component.jsx';
 import FooterPanel from './components/footer/footer.component.jsx';
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions.js";
+// import Particles from "react-particles-js";
+// import { particlesOptions } from "./particlesOptions.js";
 
 import './App.css';
 
@@ -25,7 +25,7 @@ const App = () => {
     <MyNavBar />
     <MyCarousal />
     <TitleMessage />
-    <Particles className="particles particles-box" params={particlesOptions} />
+    {/* <Particles className="particles particles-box" params={particlesOptions} /> */}
     <ScrollDown />
     <div>
       {/* <Parallax blur={{ min: -15, max: 15 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="abc" strength={-200}> */}

@@ -421,7 +421,7 @@ const ProjectTimeline = () => {
                             <Accordion.Collapse eventKey="0" className="text-left">
                                 <Card.Body>
                                 <strong>Description:</strong> A personal portfolio website, designed for 
-                                me.
+                                me. You are currently in this website.
                                 <hr />
                                 <strong>Features:</strong>
                                 <ul className="list-styles pt-1">
@@ -495,20 +495,6 @@ const ProjectTimeline = () => {
                             </Accordion.Collapse>
                             </Card>
                         </Accordion>
-                        </div>
-                        <div className="d-flex justify-content-between flex-nowrap text-center">
-                            <UrlButton
-                            href="https://crwn-franchise.herokuapp.com/"
-                            target="_blank"
-                            >
-                            SEE LIVE
-                            </UrlButton>
-                            <UrlButton
-                            href="https://github.com/TrishaShetty/my-Personal-Website/tree/master"
-                            target="_blank"
-                            >
-                            SOURCE CODE
-                            </UrlButton>
                         </div>
                     </div>
                 </ImageEvent>
